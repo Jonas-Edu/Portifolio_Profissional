@@ -40,7 +40,7 @@ const readMoreContent = document.querySelector('.read-more-content');
 readMoreBtn.addEventListener('click', () => {
     readMoreContent.classList.toggle('show-content');
     if(readMoreContent.classList.contains('show-content')){
-        readMoreBtn.textContent = "Menos Info";
+        readMoreBtn.textContent = "Ler Menos";
     } else{
         readMoreBtn.textContent = "Mais Info";
     }

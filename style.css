@@ -450,7 +450,7 @@ section.projetos .container .projeto{
 }
 
 section.projetos .container .projeto:hover {
-    box-shadow: 0 3rem 3rem var(--color-primary-light);
+    box-shadow: 0 1rem 1rem var(--color-primary);
 }
 
 section.projetos .container .projeto span{
@@ -507,7 +507,7 @@ section.projetos .container .projeto:nth-child(3) span{
  /*===============Contato CSS==========================*/
 
 section.contato{
-    background: url("imagens/contact-us.jpg")
+    background: url("imagens/img_contato.jpg")
     no-repeat center center/cover;
     padding: 0;
     max-width: 100vw;
@@ -517,7 +517,7 @@ section.contato{
 section.contato .overlay{
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.6);
     padding: 10rem 0 7rem;
 }
 
@@ -531,7 +531,7 @@ section.contato .container h1{
     color: var(--color-white);
 }
 
-section.contato .container p{
+section.contato .container h2{
     text-align: center;
     color: var(--color-white);
     opacity: 0.8;
@@ -677,7 +677,7 @@ footer .copyright {
     width: 16rem;
     height: 100vh;
     background: var(--color-white);
-    box-shadow: 1rem 0 2rem var(--color-primary);
+  box-shadow: 0.2rem 0 1rem var(--color-primary); 
     display: none;
    }
 
