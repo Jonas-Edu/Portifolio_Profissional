@@ -588,6 +588,9 @@ section.contato form textarea{
 footer {
     padding-top: 5rem;
 }
+footer .container .h3{
+    color: var(--color-primary);  
+}
 
 footer .container {
     display: flex;
